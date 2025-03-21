@@ -1,0 +1,11 @@
+@IdentityServer_HostAddress = http://localhost:5020
+
+POST {{IdentityServer_HostAddress}}/auth/authenticate
+Accept: application/json
+Content-Type: application/json
+{
+  "username": "admin",
+  "password": "admin"
+}
+
+###
